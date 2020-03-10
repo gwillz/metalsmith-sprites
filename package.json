@@ -1,0 +1,26 @@
+{
+  "name": "metalsmith-sprites",
+  "version": "1.0.0",
+  "description": "SVG sprites and metalsmith",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwillz/metalsmith-sprites.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "sprite",
+    "svg",
+    "svg-sprite",
+    "icon"
+  ],
+  "author": "Gwilyn Saunders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gwillz/metalsmith-sprites/issues"
+  },
+  "homepage": "https://github.com/gwillz/metalsmith-sprites#readme"
+}
