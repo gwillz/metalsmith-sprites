@@ -16,9 +16,16 @@
   "keywords": [
     "metalsmith",
     "sprite",
+    "static",
+    "plugin",
     "svg",
     "svg-sprite",
+    "svg2sprite",
     "icon"
+  ],
+  "files": [
+    "build/",
+    "README.md"
   ],
   "author": "Gwilyn Saunders",
   "license": "MIT",
