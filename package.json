@@ -2,9 +2,12 @@
   "name": "metalsmith-sprites",
   "version": "1.0.0",
   "description": "SVG sprites and metalsmith",
-  "main": "index.js",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "tsc",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,18 @@
   "bugs": {
     "url": "https://github.com/gwillz/metalsmith-sprites/issues"
   },
-  "homepage": "https://github.com/gwillz/metalsmith-sprites#readme"
+  "homepage": "https://github.com/gwillz/metalsmith-sprites#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/metalsmith": "^2.3.0",
+    "@types/node": "^13.9.0",
+    "@types/tape": "^4.2.34",
+    "metalsmith": "^2.3.0",
+    "multimatch": "^4.0.0",
+    "nyc": "^15.0.0",
+    "svg2sprite": "^2.0.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.13.2",
+    "typescript": "^3.8.3"
+  }
 }
