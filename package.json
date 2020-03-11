@@ -26,15 +26,16 @@
     "url": "https://github.com/gwillz/metalsmith-sprites/issues"
   },
   "homepage": "https://github.com/gwillz/metalsmith-sprites#readme",
-  "dependencies": {},
+  "dependencies": {
+    "multimatch": "^4.0.0",
+    "svg2sprite": "^2.0.1"
+  },
   "devDependencies": {
     "@types/metalsmith": "^2.3.0",
     "@types/node": "^13.9.0",
     "@types/tape": "^4.2.34",
     "metalsmith": "^2.3.0",
-    "multimatch": "^4.0.0",
     "nyc": "^15.0.0",
-    "svg2sprite": "^2.0.1",
     "tap-spec": "^5.0.0",
     "tape": "^4.13.2",
     "typescript": "^3.8.3"
